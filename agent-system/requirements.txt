@@ -1,0 +1,49 @@
+# Core dependencies for InkWell RAG Agent System
+openai>=1.0.0
+langchain>=0.1.0
+langchain-openai>=0.1.0
+chromadb>=0.4.0
+tiktoken>=0.5.0
+
+# Vector store and embeddings
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.0
+
+# Async support
+aiohttp>=3.8.0
+asyncio-mqtt>=0.16.0
+
+# Database and storage
+supabase>=2.0.0
+psycopg2-binary>=2.9.0
+
+# Web framework for API
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Development and testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Optional: Audio processing for audiobook agent
+pydub>=0.25.0
+SpeechRecognition>=3.10.0
+
+# Optional: Image processing for cover design agent
+Pillow>=10.0.0
+opencv-python>=4.8.0
+
+# Crew AI
+crewai>=0.1.0
+
+# Additional dependencies for Railway
+gunicorn>=21.0.0 
